@@ -1,0 +1,8 @@
+dataset/images/val/frame_1085.jpg
+dataset/images/val/frame_1253.jpg
+dataset/images/val/frame_1479.jpg
+dataset/images/val/frame_1659.jpg
+dataset/images/val/frame_1727.jpg
+dataset/images/val/frame_762.jpg
+dataset/images/val/frame_791.jpg
+dataset/images/val/frame_933.jpg
