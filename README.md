@@ -1,6 +1,6 @@
 # Computer Vision Summer Internship - IIIT Hyderabad
 
-This repository contains tasks completed as part of my internship.
+This repository contains tasks and project completed during my Summer internship.
 
 ---
 
@@ -46,18 +46,23 @@ This repository contains tasks completed as part of my internship.
 
 ---
 
-## 🛠️ Tools Used
+## 🛠️ Tools Used <br>
 * **Python** <br>
 * **FFmpeg** <br>
 * **Ultralytics** <br>
+* **PyTorch**<br>
+* **NumPy**<br>
+* **Open CV**<br>
+* **Label Studio**<br>
 
 ---
 
-## 📝 Notes
-* Each task is organized in separate folders <br>
-* Outputs are included for reference <br>
+## 📝 Notes <br>
+* Each task is organized in separate folders. <br>
+* Outputs are included wherever applicable. <br>
+* The repository demonstrates practical applications of Computer Vision, Object Detection, Segmentation, Datasetset preparation and video processing workflows.
 
 ---
 
-## 👤 Author
-* **Midhath Firdouse**
+## 👤 Author <br>
+**Midhath Firdouse**
