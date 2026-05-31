@@ -3,11 +3,11 @@
  The project also includes evaluation of model performance using metrics such as Precision, Recall, mAP, and Confusion Matrix analysis.
 
 ## 📊 Project Overview
-**The project highlights:**
--🔥 Fire Detection: Bounding boxes around visible flames.
--👤 Human Detection: Identification of humans in fire-related scenes.
--📈 Performance Evaluation: Precision, Recall, mAP, and Confusion Matrix analysis.
--🎥 Detection Demonstration: Prediction results converted into a video for visualization.
+**The project highlights:**<br>
+-🔥 Fire Detection: Bounding boxes around visible flames.<br>
+-👤 Human Detection: Identification of humans in fire-related scenes.<br>
+-📈 Performance Evaluation: Precision, Recall, mAP, and Confusion Matrix analysis.<br>
+-🎥 Detection Demonstration: Prediction results converted into a video for visualization.<br>
 
 **Key Insights:**
 - Detection of Fire and Human objects on unseen test images.
@@ -24,11 +24,11 @@
 - FFmpeg
 
 ## 📂 Project Files:
-- Dataset/ → Images, labels, train.txt, val.txt and data.yaml
-- best.pt → Best trained YOLOv8 model weights
-- detection_video.mp4 → Video generated from prediction outputs
-- predict → Sample detection outputs
-- README.md → Project documentation
+ Dataset/ → Images, labels, train.txt, val.txt and data.yaml<br>
+ best.pt → Best trained YOLOv8 model weights<br>
+ detection_video.mp4 → Video generated from prediction outputs<br>
+ predict → Sample detection outputs<br>
+ README.md → Project documentation
 
 ## 📦 Dataset:
 The dataset was prepared in YOLO format and contains two classes:
