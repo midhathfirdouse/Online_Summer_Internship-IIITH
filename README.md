@@ -4,16 +4,16 @@
 
 ## 📊 Project Overview
 **The project highlights:**
-🔥 Fire Detection: Bounding boxes around visible flames.
-👤 Human Detection: Identification of humans in fire-related scenes.
-📈 Performance Evaluation: Precision, Recall, mAP, and Confusion Matrix analysis.
-🎥 Detection Demonstration: Prediction results converted into a video for visualization.
+-🔥 Fire Detection: Bounding boxes around visible flames.
+-👤 Human Detection: Identification of humans in fire-related scenes.
+-📈 Performance Evaluation: Precision, Recall, mAP, and Confusion Matrix analysis.
+-🎥 Detection Demonstration: Prediction results converted into a video for visualization.
 
 **Key Insights:**
-Detection of Fire and Human objects on unseen test images.
-Performance evaluation using YOLOv8 validation metrics.
-Training and validation behavior visualized through graphs.
-Analysis of strengths and limitations of the trained model.
+- Detection of Fire and Human objects on unseen test images.
+- Performance evaluation using YOLOv8 validation metrics.
+- Training and validation behavior visualized through graphs.
+- Analysis of strengths and limitations of the trained model.
 
 ## 🛠 Tools Used:
 - Python
@@ -24,11 +24,11 @@ Analysis of strengths and limitations of the trained model.
 - FFmpeg
 
 ## 📂 Project Files:
-Dataset/ → Images, labels, train.txt, val.txt and data.yaml
-best.pt → Best trained YOLOv8 model weights
-detection_video.mp4 → Video generated from prediction outputs
-predict → Sample detection outputs
-README.md → Project documentation
+- Dataset/ → Images, labels, train.txt, val.txt and data.yaml
+- best.pt → Best trained YOLOv8 model weights
+- detection_video.mp4 → Video generated from prediction outputs
+- predict → Sample detection outputs
+- README.md → Project documentation
 
 ## 📦 Dataset:
 The dataset was prepared in YOLO format and contains two classes:
@@ -81,13 +81,13 @@ Strong mAP@50 demonstrates effective object detection performance on the validat
 
 ## Confusion Matrix
 <img width="3000" height="2250" alt="confusion_matrix_normalized" src="https://github.com/user-attachments/assets/a2498fd9-23fa-4310-90ef-a6091ea758ca" />
-## Observations:
-**Fire Detection**
-Correctly Detected: ~95%
-Background Confusion: ~5%
-**Human Detection**
-Correctly Detected: ~82%
-Background Confusion: ~18%
+**Observations:**
+-**Fire Detection**
+- Correctly Detected: ~95%
+- Background Confusion: ~5%
+-**Human Detection**
+- Correctly Detected: ~82%
+- Background Confusion: ~18%
 
 ## 🎥 Demonstration Video
 The prediction outputs were converted into a video using FFmpeg to visualize the model's performance across multiple frames.
@@ -134,7 +134,7 @@ The project provided practical experience in dataset preparation, annotation, mo
 
   ## 👤 Author
 **Midhath Firdouse**
-Computer Science Engineering (CSE)
-Detecting Fire and Human Presence For Safety Monitoring
+--Computer Science Engineering (CSE)
+-Detecting Fire and Human Presence For Safety Monitoring
 
 
