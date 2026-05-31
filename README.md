@@ -133,8 +133,9 @@ The project provided practical experience in dataset preparation, annotation, mo
 
 
   ## 👤 Author
+  
 **Midhath Firdouse**
---Computer Science Engineering (CSE)
--Detecting Fire and Human Presence For Safety Monitoring
+Computer Science Engineering (CSE)
+Detecting Fire and Human Presence For Safety Monitoring
 
 
