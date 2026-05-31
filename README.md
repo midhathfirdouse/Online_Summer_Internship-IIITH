@@ -28,18 +28,18 @@
  best.pt → Best trained YOLOv8 model weights<br>
  detection_video.mp4 → Video generated from prediction outputs<br>
  predict → Sample detection outputs<br>
- README.md → Project documentation
+ README.md → Project documentation<br>
 
 ## 📦 Dataset:
 The dataset was prepared in YOLO format and contains two classes:
-Class ID	Class Name
-0	        Fire
-1	        Human
+Class ID	Class Name<br>
+0	        Fire<br>
+1	        Human<br>
 
 **Dataset Statistics:**
-Class	Instances
-Fire	97
-Human	96
+Class	Instances<br>
+Fire	97<br>
+Human	96<br>
 Total annotated objects: 193
 
 ## 📸 Sample Outputs:
@@ -53,26 +53,26 @@ Human detection with confidence scores
 Simultaneous Fire and Human detection in the same image
 
 ## 🚀 Training Configuration
-Parameter:
-Model      -	YOLOv8 Nano (yolov8n.pt)
-Epochs     -	100
-Image Size -	384 × 384
-Classes	   - Fire, Human
+Parameter:<br>
+Model      -	YOLOv8 Nano (yolov8n.pt)<br>
+Epochs     -	100<br>
+Image Size -	384 × 384<br>
+Classes	   - Fire, Human<br>
 **Generated Outputs:**
-best.pt
-last.pt
-results.png
-confusion_matrix_normalized.png
-prediction outputs
+best.pt<br>
+last.pt<br>
+results.png<br>
+confusion_matrix_normalized.png<br>
+prediction outputs<br>
 
 ## 📊 Training Metrics
 <img width="1449" height="813" alt="image" src="https://github.com/user-attachments/assets/966041a3-3ece-4cbd-b055-d2b095a6bc9a" />
-Performance Summary
-Metric	Value
-Precision	~0.90
-Recall  	~0.89
-mAP@50	  ~0.93
-mAP@50-95	~0.55
+Performance Summary:<br>
+Metric	Value<br>
+Precision	~0.90<br>
+Recall  	~0.89<br>
+mAP@50	  ~0.93<br>
+mAP@50-95	~0.55<br>
 
 **Interpretation:**
 High Precision indicates that most detected objects are classified correctly.
@@ -82,12 +82,12 @@ Strong mAP@50 demonstrates effective object detection performance on the validat
 ## Confusion Matrix
 <img width="3000" height="2250" alt="confusion_matrix_normalized" src="https://github.com/user-attachments/assets/a2498fd9-23fa-4310-90ef-a6091ea758ca" />
 **Observations:**
--**Fire Detection**
-- Correctly Detected: ~95%
-- Background Confusion: ~5%
--**Human Detection**
-- Correctly Detected: ~82%
-- Background Confusion: ~18%
+-**Fire Detection**<br>
+- Correctly Detected: ~95%<br>
+- Background Confusion: ~5%<br>
+-**Human Detection**<br>
+- Correctly Detected: ~82%<br>
+- Background Confusion: ~18%<br>
 
 ## 🎥 Demonstration Video
 The prediction outputs were converted into a video using FFmpeg to visualize the model's performance across multiple frames.
@@ -97,10 +97,10 @@ detection_video.mp4:https://drive.google.com/file/d/1VVXAJSZTYN8fVxOAntBCuUvl7x4
 The trained YOLOv8 model achieved strong performance on both Fire and Human detection tasks. Based on the confusion matrix, Fire detection achieved a higher detection rate than Human detection on the validation dataset.
 
 **Observations**
-Fire objects were detected with high accuracy despite their irregular shape and varying appearance.
-Human detection performance was slightly lower due to factors such as occlusion, partial visibility, and variations in pose.
-Some missed detections occurred when objects were small, distant, or appeared under challenging lighting conditions.
-Background complexity and visual noise occasionally affected object localization.
+Fire objects were detected with high accuracy despite their irregular shape and varying appearance.<br>
+Human detection performance was slightly lower due to factors such as occlusion, partial visibility, and variations in pose.<br>
+Some missed detections occurred when objects were small, distant, or appeared under challenging lighting conditions.<br>
+Background complexity and visual noise occasionally affected object localization.<br>
 
 Overall, the results demonstrate the effectiveness of YOLOv8 for safety monitoring applications involving Fire and Human detection.
 
@@ -128,8 +128,8 @@ Despite these challenges, the trained YOLOv8 model achieved strong fire detectio
 - Gaining practical experience with an end-to-end computer vision workflow
 
 ## 🏁 Conclusion
-This project demonstrates the successful application of YOLOv8 for Fire and Human detection using a custom dataset. The trained model achieved strong precision, recall, and mAP scores while effectively detecting target objects in unseen images.
-The project provided practical experience in dataset preparation, annotation, model training, evaluation, and result visualization, forming a complete end-to-end computer vision workflow.
+This project demonstrates the successful application of YOLOv8 for Fire and Human detection using a custom dataset. The trained model achieved strong precision, recall, and mAP scores while effectively detecting target objects in unseen images.<br>
+The project provided practical experience in dataset preparation, annotation, model training, evaluation, and result visualization, forming a complete end-to-end computer vision workflow.<br>
 
 
   ## 👤 Author
